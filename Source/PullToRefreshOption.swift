@@ -6,7 +6,7 @@
 //
 import UIKit
 
-struct PullToRefreshConst {
+public struct PullToRefreshConst {
     static let pullTag = 810
     static let pushTag = 811
     static let alpha = true
