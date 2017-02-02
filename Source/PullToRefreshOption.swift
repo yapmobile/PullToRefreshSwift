@@ -6,17 +6,17 @@
 //
 import UIKit
 
-open struct PullToRefreshConst {
+struct PullToRefreshConst {
     static let pullTag = 810
     static let pushTag = 811
     static let alpha = true
-    static let height: CGFloat = 80
+    static let height: CGFloat = 160
     static let imageName: String = "pulltorefresharrow.png"
     static let animationDuration: Double = 0.5
     static let fixedTop = true // PullToRefreshView fixed Top
 }
 
-open struct PullToRefreshOption {
+public struct PullToRefreshOption {
     public var backgroundColor: UIColor
     public var indicatorColor: UIColor
     public var autoStopTime: Double // 0 is not auto stop
