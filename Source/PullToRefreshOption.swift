@@ -6,7 +6,7 @@
 //
 import UIKit
 
-public struct PullToRefreshConst {
+open struct PullToRefreshConst {
     static let pullTag = 810
     static let pushTag = 811
     static let alpha = true
@@ -16,7 +16,7 @@ public struct PullToRefreshConst {
     static let fixedTop = true // PullToRefreshView fixed Top
 }
 
-public struct PullToRefreshOption {
+open struct PullToRefreshOption {
     public var backgroundColor: UIColor
     public var indicatorColor: UIColor
     public var autoStopTime: Double // 0 is not auto stop
